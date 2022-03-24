@@ -1,3 +1,15 @@
+# ct-master Branch
+
+Saito is an interesting concept of a fixed-size blockchain that drops old blocks as new blocks are created. They have a concept called ATR, automatic transaction rebroadcasting. UTXOs in the old block that have enough fees to automatically re-broadcast will do so, and be included in the new block at the tip of the chain.
+
+While the idea is interesting, this code base seemed to a good example of a blockchain written in JavaScript. They have since moved to a Rust node and TypeScript code base. I forked their code to capture the work they'd done in JavaScript, in case I want to study it and use it as a sidechain for BCH some day.
+
+## Installation
+
+Try `npm install`. If it throws an error, remove the `sqlite` package from `package.json` and the issue should go away. `sqlite` can then be installed separately with `npm install sqlite`. I was able to get the code base to install and run on Ubuntu 20 with node v16.14.2 and npm v8.5.5.
+
+-----
+
 # Welcome to Saito
 
 Saito is a **Tier 1 Blockchain Protocol** that provides **high throughput**. The network accomplishes this with a consensus mechanism that pays the ISPs in the network instead of miners and stakers. The technical solution unleashes a distributed, global PKI layer.
