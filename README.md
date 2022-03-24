@@ -2,7 +2,7 @@
 
 Saito is an interesting concept of a fixed-size blockchain that drops old blocks as new blocks are created. They have a concept called ATR, automatic transaction rebroadcasting. UTXOs in the old block that have enough fees to automatically re-broadcast will do so, and be included in the new block at the tip of the chain.
 
-While the idea is interesting, this code base seemed to a good example of a blockchain written in JavaScript. They have since moved to a Rust node and TypeScript code base. I forked their code to capture the work they'd done in JavaScript, in case I want to study it and use it as a sidechain for BCH some day.
+While the idea is interesting, this code base seemed to be a good example of a blockchain written in JavaScript. They have since moved to a Rust node and TypeScript client code base. I forked their code to capture the work they'd done in JavaScript, in case I want to study it and use it as a sidechain for BCH some day.
 
 ## Installation
 
