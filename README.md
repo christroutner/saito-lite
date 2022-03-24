@@ -1,3 +1,11 @@
+# About This Fork
+
+This `master` branch is untouched, in case there are any updates that should be merged into it from the original repository.
+
+The [ct-master branch](https://github.com/christroutner/saito-lite/tree/ct-master) will contain the modifications to this fork.
+
+-----
+
 # Welcome to Saito
 
 Saito is a **Tier 1 Blockchain Protocol** that provides **high throughput**. The network accomplishes this with a consensus mechanism that pays the ISPs in the network instead of miners and stakers. The technical solution unleashes a distributed, global PKI layer.
